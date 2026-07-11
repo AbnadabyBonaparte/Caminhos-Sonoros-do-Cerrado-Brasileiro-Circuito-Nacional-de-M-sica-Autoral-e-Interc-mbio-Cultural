@@ -1,0 +1,29 @@
+{
+  "brand": "caminhos-sonoros-do-cerrado",
+  "description": "Circuito Nacional de Música Autoral e Intercâmbio Cultural — Cerrado brasileiro, música autoral, cultura, hora dourada.",
+  "palette": [
+    "#A3472C terra-vermelha",
+    "#C68C38 dourado-queimado",
+    "#6E8B59 verde-cacto",
+    "#3D4E6B azul-entardecer",
+    "#D99982 rosa-baru",
+    "#F2E2C4 areia-suave"
+  ],
+  "pieces": [
+    {
+      "name": "hero",
+      "aspect": "16:9",
+      "prompt": "Cinematic editorial hero for a Brazilian cultural music circuit rooted in the Cerrado savanna. Wide golden-hour landscape of the Brazilian Cerrado — twisted ipê and baru trees, dry golden grasses, warm red earth, distant blue-dusk hills — with a lone acoustic guitar silhouette and soft dust catching volumetric sunlight. Warm and soulful atmosphere, burnt-gold and terracotta palette accented with sage green and dusk blue, dramatic rim light, fine film grain, shallow depth of field, painterly and reverent, museum print quality, ultra-detailed, no text, no logo, no watermark, no words"
+    },
+    {
+      "name": "circuito",
+      "aspect": "3:2",
+      "prompt": "Cinematic wide shot of an open-air community music gathering at dusk in the Brazilian Cerrado, warm string lights, musicians and diverse audience in silhouette, golden and terracotta tones with dusk-blue sky, gentle dust and haze, intimate cultural celebration, film grain, editorial documentary aesthetic, ultra-detailed, no text, no logo, no watermark, no words"
+    },
+    {
+      "name": "textura",
+      "aspect": "1:1",
+      "prompt": "Abstract close-up texture of warm red Cerrado earth and dry golden grasses dissolving into soft light, burnt-gold terracotta and sage tones, tactile organic detail, cinematic macro, subtle film grain, premium editorial background, no text, no logo, no watermark, no words"
+    }
+  ]
+}

@@ -31,10 +31,23 @@
 
     <!-- Hero Section -->
     <section class="hero" id="hero">
+        <!-- Camada 0: imagem focal (fallback silencioso p/ o gradiente por baixo) -->
+        <img class="hero-focal" src="/brand/hero.jpg" alt="" aria-hidden="true"
+             onerror="this.style.display='none'">
+        <!-- Camadas de profundidade: mesh + grão + glow + vignette (CSS) -->
+        <div class="hero-mesh" aria-hidden="true"></div>
+        <div class="hero-grain" aria-hidden="true"></div>
+        <div class="hero-glow" aria-hidden="true"></div>
         <div class="hero-overlay"></div>
         <div class="hero-content">
             <div class="container">
-                <h1 class="hero-title">Caminhos Sonoros do Cerrado Brasileiro</h1>
+                <span class="hero-badge">
+                    <i class="fas fa-compact-disc"></i> Projeto Funarte 2026 · Instituto Varanda
+                </span>
+                <h1 class="hero-title">
+                    Caminhos Sonoros<br>
+                    <span class="hero-title-accent">do Cerrado Brasileiro</span>
+                </h1>
                 <p class="hero-subtitle">Circuito Nacional de Música Autoral e Intercâmbio Cultural</p>
                 <p class="hero-description">Um circuito nacional que conecta artistas, territórios e públicos por meio da música autoral brasileira, tendo o Cerrado como ponto de partida e identidade cultural.</p>
                 <div class="hero-buttons">
@@ -44,6 +57,20 @@
                     <a href="#participar" class="btn btn-secondary">
                         <i class="fas fa-users"></i> Quero Participar
                     </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="hero-stat">
+                        <span class="hero-stat-valor">+10.000</span>
+                        <span class="hero-stat-label">pessoas impactadas</span>
+                    </div>
+                    <div class="hero-stat">
+                        <span class="hero-stat-valor">3</span>
+                        <span class="hero-stat-label">estados brasileiros</span>
+                    </div>
+                    <div class="hero-stat">
+                        <span class="hero-stat-valor">Gratuito</span>
+                        <span class="hero-stat-label">acesso a todos os eventos</span>
+                    </div>
                 </div>
             </div>
         </div>
